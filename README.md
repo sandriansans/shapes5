@@ -26,3 +26,16 @@ sq.left(180)
 sq.circle(50)
 sq.end_fill()
 sq.penup()
+
+#triangle
+sq.setposition(-280,-225)
+sq.color("purple")
+sq.pendown()
+sq.begin_fill()
+for x in range (2):
+  sq.left(90)
+  sq.forward(100)
+sq.setposition(-280,-225)
+sq.end_fill()
+sq.penup()
+
