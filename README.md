@@ -49,3 +49,17 @@ for x in range (5):
   sq.right(144)
 sq.end_fill()
 sq.penup()
+
+#diamond
+sq.setposition(13,0)
+sq.pendown()
+sq.color("blue")
+sq.begin_fill()
+sq.right(45)
+sq.forward(50)
+for x in range(3):
+  sq.right(90)
+  sq.forward(80)
+sq.end_fill()
+
+
